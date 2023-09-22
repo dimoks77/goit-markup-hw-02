@@ -4,6 +4,9 @@ body {
     background-color: #FFFFFF;
 }
 
+
+/* ========================== HEADER ========================== */
+
 .header {}
 
 .header-navigation {
@@ -69,7 +72,12 @@ body {
     color: #404bbf;
 }
 
+/* ==========================  ========================== */
+
 .main {}
+
+
+/* ========================== PRIMARY (1) ========================== */
 
 .section-primary {
     background: #2E2F42;
@@ -103,7 +111,7 @@ body {
     background-color: #404BBF;
 }
 
-
+/* ========================== CONTENT (2) ========================== */
 
 .content {}
 
@@ -133,6 +141,8 @@ body {
     letter-spacing: 0.32px;
 }
 
+/* ========================== OUR TEAM (3) ========================== */
+
 .ourteam {
     background-color: #F4F4FD
 }
@@ -150,10 +160,11 @@ body {
 }
 
 .ourteam-list {
-    background-color: #FFFFFF;
 }
 
-.ourteam-list-item {}
+.ourteam-list-item {
+    background-color: #FFFFFF;
+}
 
 .ourteam-image {}
 
@@ -178,6 +189,9 @@ font-weight: 400;
 line-height: 1.5;
 letter-spacing: 0.32px;
 }
+
+
+/* ========================== PORTFOLIO (4) ========================== */
 
 .portfolio {}
 
@@ -219,6 +233,9 @@ letter-spacing: 0.32px;
     letter-spacing: 0.32px;
 }
 
+
+/* ========================== FOOTER ========================== */
+
 .footer {
     background-color: #2e2f42;
 }
@@ -232,6 +249,10 @@ letter-spacing: 0.32px;
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+}
+
+.footer-link span {
+    color: #f4f4fd;
 }
 
 .footer-text {
