@@ -4,6 +4,10 @@ body {
     background-color: #FFFFFF;
 }
 
+* li {
+    list-style: none;
+}
+
 
 /* ========================== HEADER ========================== */
 
@@ -36,6 +40,7 @@ body {
 
 .header-menu-link {
     color: #2e2f42;
+    text-decoration: none;
 }
 
 .header-menu-link:hover {
@@ -62,6 +67,7 @@ body {
 
 .header-address-link {
     color: #434455;
+    text-decoration: none;
 }
 
 .header-address-link:hover {
@@ -265,3 +271,4 @@ letter-spacing: 0.32px;
     line-height: 1.5;
     letter-spacing: 0.32px;
 }
+
